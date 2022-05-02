@@ -1,0 +1,52 @@
+/*#2a2a2a color left side*/
+
+* {
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(173, 173, 173);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.col {
+  background: #2a2a2a;
+  color: white;
+}
+
+.col-8 {
+  background: white;
+}
+
+@media screen and (max-width: 710px) {
+.col-8 {
+  width: 100%;
+}
+  
+}
+
+.container-fluid {
+  margin-left : 5px;
+  margin-right: 5px;
+  min-height: 1000px;
+}
+
+img {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+ul > li {
+  font-weight: 1em;
+}
+
+/*
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}*/
